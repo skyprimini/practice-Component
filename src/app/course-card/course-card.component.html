@@ -1,0 +1,16 @@
+<div class="course-card">
+  <div class="card my-3 p-3">
+    <div class="card-body mx-auto text-center">
+      <h2 class="course-title">{{ course.title }}</h2>
+      <img
+        class="my-3 p-3"
+        width="400"
+        height="75"
+        alt="NDSU logo"
+        [src] = "course.url"
+      />
+
+      <h5 class="card-text">{{ course.description }}</h5>
+    </div>
+  </div>
+</div>
