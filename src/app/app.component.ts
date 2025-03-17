@@ -4,6 +4,7 @@ import { CourseCardComponent } from './course-card/course-card.component';
 import { Course } from './model/course';
 import { COURSES } from './data/course-data';
 
+
 @Component({
   selector: 'app-root',
   standalone: true,
